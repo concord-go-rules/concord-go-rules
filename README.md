@@ -107,7 +107,8 @@ The technical details are in the PDF, but the real work is building understandin
 **Development**: See our [TODO list](TODO.md) for planned improvements and ways to contribute.
 
 **Contact**: 
-concord-go-rules@googlegroups.com
-https://groups.google.com/g/concord-go-rules
+- email: concord-go-rules@googlegroups.com 
+  - web email: https://groups.google.com/g/concord-go-rules
+- discord: https://discord.gg/fuBjKcDX2y
 
 **License**: CC0 1.0 Universal
