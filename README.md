@@ -88,11 +88,15 @@ We do not seek to impose change, but simply to offer ideas that might benefit th
 ### Community Benefits
 
 This project aims to serve everyone in the Go community:
-- **Players** could enjoy more consistent experiences across different venues
-- **Teachers and Students** would have clearer rules without confusing edge cases
-- **Tournament Organizers** might experience fewer rule disputes
-- **Software Developers** could implement precise, unambiguous rules
-- **International Competition** could become more harmonized
+- **New Players** could learn Go without worrying about confusing edge cases or judge calls
+- **Technical Players** would have logically complete rules that address systematic gaps
+- **Go Engine Developers** could implement precise rules without ambiguous edge cases
+- **AI Researchers** would benefit from high-resolution scoring that matches engine precision
+- **Players** traveling between regions could enjoy consistent rule experiences
+- **Tournament Organizers** might have fewer rule disputes to resolve
+- **Teachers** could explain clearer, more complete rules to students
+- **Online platforms** could offer unified rule options
+- **International events** might run more smoothly with harmonized standards
 
 ### How You Can Help
 
