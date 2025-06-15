@@ -9,23 +9,10 @@ These include the Nihon Ki-in, Kansai Ki-in, Chinese Weiqi Association, Korean B
 ### Why This Matters
 
 Go organizations worldwide use slightly different rule systems, each with their own strengths.
-These differences sometimes create confusion for players and complications for international competition.
-More importantly, current rule systems often leave beginners puzzled by special cases and situations requiring judge intervention.
+These differences create confusion for players and complications for international competition.
+Current rule systems also leave beginners puzzled by special cases and create challenges for Go engines that need precise mathematical rules.
 
-**For Beginners:**
-Many new players struggle with unclear situations like disputed dead stones or complex scoring scenarios.
-The Concord Rules aim to eliminate these gray areas, providing clear procedures that any player can follow.
-
-**For Technical Players:**
-Players with mathematical or technical backgrounds often notice gaps and inconsistencies in traditional rule systems.
-The Concord Rules address these systematic issues with mathematically sound solutions.
-
-**For Go Engines and AI:**
-Computer Go programs require mathematically precise rules to function properly.
-Ambiguous situations that humans resolve through judgment create problems for engines.
-In the age of AI, where programs can evaluate positions to fractions of points, high-resolution scoring becomes crucial.
-
-The Concord Rules explore whether these systems might be harmonized while making the game more accessible to newcomers and more logically consistent for analytical minds.
+The Concord Rules explore whether these systems might be harmonized while serving everyone from newcomers to AI researchers.
 
 ### What We Hope to Offer
 
@@ -40,7 +27,7 @@ This is a **humble proposal and working document** intended to spark thoughtful 
 
 - **Respectful**: Honoring all traditional approaches to the game we love
 - **Accessible**: Easy to understand and consider
-- **Optimal Design**: Designed to be the best possible rules for achieving all stated goals, unconstrained by historical baggage 
+- **Optimal Design**: Designed to be the best possible rules for achieving all stated goals 
 
 ### Getting Started
 
@@ -57,14 +44,7 @@ The PDF contains:
 ### Key Insight
 
 The proposal centers on two simple modifications (pass stone and last pass rules) that could unify different counting methods while respecting existing traditions.
-
-**Learning from AGA Rules History:**
-The creation of AGA rules was driven by similar goals.
-Initially, they added pass stones without the last pass rule, which led to pass fights.
-To resolve these pass fights, they were forced to add the "White passes last" rule, requiring sometimes 3 passes.
-This fixed the pass fights but created only 2-point resolution scoring.
-
-Concord Rules achieve high 1-point resolution by using different last pass rule, which also adhers to traditions of 2 passes ending the game.
+Concord Rules achieve high 1-point resolution scoring while avoiding tactical complications like pass fights.
 
 ### Path to Adoption
 
@@ -103,18 +83,14 @@ We do not seek to impose change, but simply to offer ideas that might benefit th
 - **The Go Community** might experience reduced controversy and greater clarity
 - **International Competition** could become more harmonized over time
 
-### Community Impact
+### Community Benefits
 
-This project aims to serve the entire Go community:
-- **New Players** could learn Go without worrying about confusing edge cases or judge calls
-- **Technical Players** would have logically complete rules that address systematic gaps
-- **Go Engine Developers** could implement precise rules without ambiguous edge cases
-- **AI Researchers** would benefit from high-resolution scoring that matches engine precision
-- **Players** traveling between regions could enjoy consistent rule experiences
-- **Tournament organizers** might have fewer rule disputes to resolve
-- **Teachers** could explain clearer, more complete rules to students
-- **Online platforms** could offer unified rule options
-- **International events** might run more smoothly with harmonized standards
+This project aims to serve everyone in the Go community:
+- **Players** could enjoy more consistent experiences across different venues
+- **Teachers and Students** would have clearer rules without confusing edge cases
+- **Tournament Organizers** might experience fewer rule disputes
+- **Software Developers** could implement precise, unambiguous rules
+- **International Competition** could become more harmonized
 
 ### How You Can Help
 

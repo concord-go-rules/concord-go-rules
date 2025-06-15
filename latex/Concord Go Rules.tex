@@ -3,6 +3,7 @@
 \usepackage{amsmath}
 \usepackage{enumerate}
 \usepackage{enumitem}
+\usepackage{parskip}
 
 \setlist[itemize,1]{label=\textbullet}
 \setlist[itemize,2]{label=\textbullet}
@@ -22,6 +23,24 @@ This document defines the Concord Rules of Go, a rule set aiming for three goals
 \item \textbf{Score Equivalence}: Territory and Area counting methods consistently yield the same game result.
 \item \textbf{High Score Granularity}: Small endgame mistakes can alter the final score by a single point, similar to territory rules.
 \end{enumerate}
+
+\section{Design Philosophy}
+
+The Concord Rules represent an optimal design for achieving all stated goals, unconstrained by historical baggage. They address the needs of multiple audiences:
+
+\textbf{For Beginners:} Many new players struggle with unclear situations like disputed dead stones or complex scoring scenarios. The Concord Rules eliminate these gray areas, providing clear procedures that any player can follow.
+
+\textbf{For Technical Players:} Players with mathematical or technical backgrounds often notice gaps and inconsistencies in traditional rule systems. The Concord Rules address these systematic issues with mathematically sound solutions.
+
+\textbf{For Go Engines and AI:} Computer Go programs require mathematically precise rules to function properly. Ambiguous situations that humans resolve through judgment create problems for engines. In the age of AI, where programs can evaluate positions to fractions of points, high-resolution scoring becomes crucial.
+
+\section{Historical Context: Learning from AGA Rules}
+
+The creation of AGA rules was driven by similar goals to unify counting methods. Initially, they added pass stones without the last pass rule, which led to pass fights. To resolve these pass fights, they were forced to add the ``White passes last'' rule, requiring sometimes 3 passes. This fixed the pass fights but created only 2-point resolution scoring.
+
+Concord Rules achieve high 1-point resolution by using a different last pass rule, which also adheres to traditions of 2 passes ending the game.
+
+\newpage
 
 \section{Informal Comparisons}
 
@@ -117,5 +136,21 @@ It is 1 if White played the very first pass.
 &= (E_B - C_B - P_B) - (E_W - C_W - P_W) - \text{komi} \\
 &= \text{Territory score}
 \end{align}
+
+\newpage
+\section*{Appendix: Detailed Community Impact}
+
+This project aims to serve the entire Go community:
+\begin{itemize}
+\item \textbf{New Players} could learn Go without worrying about confusing edge cases or judge calls.
+\item \textbf{Technical Players} would have logically complete rules that address systematic gaps.
+\item \textbf{Go Engine Developers} could implement precise rules without ambiguous edge cases.
+\item \textbf{AI Game analysis} would benefit from high-resolution scoring.
+\item \textbf{Players traveling} between regions could enjoy consistent rule experiences.
+\item \textbf{Tournament organizers} might have fewer rule disputes to resolve.
+\item \textbf{Teachers} could explain clearer, more complete rules to students.
+\item \textbf{Online platforms} could offer unified rule options.
+\item \textbf{International events} might run more smoothly with harmonized standards.
+\end{itemize}
 
 \end{document}
