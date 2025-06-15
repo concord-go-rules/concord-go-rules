@@ -5,12 +5,14 @@
 - [ ] **Mind Olympiad Rules** - Analyze differences and similarities
 - [ ] **Taiwan Traditional Rules** - Compare traditional Taiwanese approach
 - [ ] **New Zealand Rule History** - Study NZ rule evolution and lessons learned (https://go.org.nz/index.php/about-go/history-of-nz-rules-of-go)
+- [ ] **Double Button Go Rules** - Analyze this variant and compare with Concord approach
 
 ## Documentation Improvements
 - [ ] Add Executive Summary section to PDF
 - [ ] Create FAQ section in PDF
 - [ ] Add worked examples section to PDF
 - [ ] **Complete Ing counting section** - Remove placeholder and add proper Ing rules comparison
+- [ ] **Split PDF into two documents** - Pure rules and informal comparisons in one file, commentary and analysis in another
 
 ## Content Development
 - [ ] Develop referee quick reference card
