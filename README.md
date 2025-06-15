@@ -31,7 +31,9 @@ This is a **humble proposal and working document** intended to spark thoughtful 
 
 ### Getting Started
 
-To build the PDF documentation with the complete technical ruleset:
+**[📄 View the Complete PDF Rules](https://github.com/lukaszlew/concord-go-rules/blob/main/Concord%20Go%20Rules.pdf)**
+
+To build the PDF documentation locally:
 ```bash
 latex/make_pdf.sh
 ```
@@ -101,6 +103,8 @@ The technical details are in the PDF, but the real work is building understandin
 ---
 
 *For detailed rules and mathematical proofs, see the compiled PDF documentation.*
+
+**Development**: See our [TODO list](TODO.md) for planned improvements and ways to contribute.
 
 **Contact**: 
 concord-go-rules@googlegroups.com
