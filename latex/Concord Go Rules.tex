@@ -1,0 +1,121 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{enumerate}
+\usepackage{enumitem}
+
+\setlist[itemize,1]{label=\textbullet}
+\setlist[itemize,2]{label=\textbullet}
+
+\title{Concord Rules of Go}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+This document defines the Concord Rules of Go, a rule set aiming for three goals:
+
+\begin{enumerate}
+\item \textbf{Resolvable Dead Stones}: Games can always be played out until all dead stones are captured without affecting the score.
+\item \textbf{Score Equivalence}: Territory and Area counting methods consistently yield the same game result.
+\item \textbf{High Score Granularity}: Small endgame mistakes can alter the final score by a single point, similar to territory rules.
+\end{enumerate}
+
+\section{Informal Comparisons}
+
+\begin{itemize}
+\item \textbf{To Japanese/Korean Rules (with Concord Territory Counting):}
+    \begin{itemize}
+    \item \textbf{Pass Stones:} In Concord, a pass requires a giving ``pass stone'' as a prisoner to the opponent.
+    \item \textbf{Life/Death \& Ko:} Concord allows games to be resumed to capture all dead stones without affecting the score.
+    \item \textbf{Last pass.} The first and last pass play in the game must be played by a different player. In the rare cases three pass plays at the end might be needed, for instance: ..., B pass, W threat, B answer, W pass, B pass, W pass.
+    \item \textbf{Effect.} Concord rules maintain high score granularity, while adding score equivalence and removable dead stones.
+    \end{itemize}
+
+\item \textbf{To Chinese Rules (with Concord Area Counting):}
+    \begin{itemize}
+    \item \textbf{First Pass is Valuable:} White gets one extra point if White made the game's very first pass.
+    \item \textbf{Handicap Compensation:} White gains one point for each handicap stone Black receives beyond the first.
+    \item \textbf{Effect.} Concord rules maintain resolvable dead stones, while adding score equivalence and high score granularity
+    \end{itemize}
+
+\item \textbf{To AGA Rules:}
+    \begin{itemize}
+    \item \textbf{Last Pass:} In Concord, the game's final pass must be made by a different player than the one who made the game's very first pass. (AGA: White always makes the last pass.)
+    \item \textbf{Scoring Adjustment for Equivalence:} For territory counting, the last pass rule modification is key. For area counting, White receives an additional point if White made the game's very first pass.
+    \item \textbf{Effect.} Concord rules maintain resolvable dead stones and score equivalence but add high score granularity.
+    \end{itemize}
+\end{itemize}
+
+\newpage
+\section{The Rules}
+
+\begin{itemize}
+\item \textbf{Setup.} Go is played Black and White using black and white stones, two prisoner containers and a board. Before starting, players agree on:
+    \begin{itemize}
+    \item Player colors
+    \item Board used
+    \item Komi (point compensation for White)
+    \item Handicap (if any)
+    \item Counting method (Territory or Area)
+    \end{itemize}
+
+\item \textbf{Play alternation.} Players alternate plays. Black plays first.
+    \begin{itemize}
+    \item \textbf{Board.} The board is a grid of intersecting lines. Intersections are initially empty.
+    \item \textbf{A play.} A play is either \textit{pass play} or \textit{board play}. A play always uses one stone of the player's color.
+    \item \textbf{Pass play.} The player places the stone in the opponent's prisoner container. This is a ``pass stone''.
+    \item \textbf{Liberty.} A stone on an intersection has a liberty if there is a path along board lines to an empty intersection through intersections with stones of the same color.
+    \item \textbf{Board play.} The player places the stone on an empty intersection and captures all opponent's stones that don't have any liberties. Captured stones are moved from the board and to the player's prisoner container.
+    \item \textbf{Suicide is illegal.} A play is illegal if, after captures, the stone just played has no liberties.
+    \item \textbf{Repetition is illegal.} A player's board play is illegal if it recreates the board with the same player's turn to play (situational superko).
+    \item \textbf{Illegal play handling.} Player's illegal play, if challenged by the opponent before their move, must be retracted and the player must make a pass play. The opponent may allow the player to choose any legal play in place of the mandatory pass play.
+    \end{itemize}
+
+\item \textbf{Play alternation end.} Play alternation ends after two consecutive pass plays. However, if the Last pass' rule (see below) requires a third consecutive pass, play alternation extends to include it.
+    \begin{itemize}
+    \item \textbf{Last pass.} The first and last pass play in the game must be played by a different player. In the rare cases three pass plays at the end might be needed, for instance: ..., B pass, W threat, B answer, W pass, B pass, W pass.
+    \item \textbf{Dead Stone Removal by Agreement.} After play alternation ends, players try to agree on which stones remaining on the board are ``dead'' - can be removed. If agreement is reached, each player removes dead opponent's stones and adds them to their own prisoner containers and players proceed to scoring. If the players fail to agree, the play alteration resumes.
+    \item \textbf{Dispute resolution.} If the agreement is not reached, each player has a chance to say the phrase ``Let's play until all dead stones are captured.'' (or similar). In that case the play alteration is resumed, players should aim to capture all the stones of the opponent they can with board plays. When play alternation concludes again (as defined in 'Play alternation end'), all stones remaining on board will be considered not ``dead''. There is no Dead Stone Removal by Agreement phase. Stones remain on board as they are for scoring.
+    \end{itemize}
+
+\item \textbf{Scoring.} Players calculate scores using the pre-agreed method. White adds komi. The player with more points wins.
+    \begin{itemize}
+    \item \textbf{Territory intersection.} An empty intersection is part of a player's territory if there is no path from it, along board lines and through other empty intersections, to a stone of the opponent.
+    \item \textbf{Territory counting.} Player's score = number of player's territory intersections + number of prisoners in player's container.
+    \item \textbf{Area counting.} Player's score = number of player's stones on board + the number of territory intersections. White gets an additional point if White has played the very first pass in the game. White gets an additional point for every handicap except the first (e.g., if Black has 3 handicap stones, White gets 2 points).
+    \item \textbf{Ing counting.} $\langle$todo$\rangle$
+    \end{itemize}
+\end{itemize}
+
+\newpage
+\section{Equivalence of Area and Territory counting}
+
+This section demonstrates the equivalence under Concord rules.
+
+\textbf{Definitions of variables}
+
+\begin{itemize}
+\item $C_B$, $C_W$ - number of stones \textbf{Captured} by Black and White respectively
+\item $B_B$, $B_W$ - number of Black and White stones remaining on \textbf{Board}, excluding handicap
+\item $H_1$ - number of handicap stones minus 1, i.e. number of additional stones placed with the first Black move. In even game $H_1 = 0$
+\item $P_B$, $P_W$ - number of \textbf{Passes} by Black and White respectively
+\item $E_B$, $E_W$ - number of \textbf{Empty} intersections surrounded by Black and White respectively
+\item $M_B$, $M_W$ - number of \textbf{Moves} (on board and passes) played by Black and White respectively. Thus $M_B = B_B + C_B + P_B$ and $M_W = B_W + C_W + P_W$
+\item $M_\Delta = M_B - M_W$ - difference in move count, either 0 or 1. \\
+It is 1 if Black played the last move (pass).\\
+It is 1 if White played the very first pass.
+\end{itemize}
+
+\begin{align}
+\text{Area score} &= (E_B + (B_B+H_1)) - (E_W + B_W + \text{komi} + M_\Delta + H_1) \\
+&= (E_B + B_B) - (E_W + B_W + \text{komi} + M_\Delta) \\
+&= (E_B + B_B - M_B) - (E_W + B_W - M_W) - \text{komi} \\
+&= (E_B + B_B - B_B - C_B - P_B ) - (E_W + B_W - B_W - C_W - P_W) - \text{komi} \\
+&= (E_B - C_B - P_B) - (E_W - C_W - P_W) - \text{komi} \\
+&= \text{Territory score}
+\end{align}
+
+\end{document}
