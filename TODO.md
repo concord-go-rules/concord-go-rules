@@ -39,5 +39,8 @@
 - [ ] Website development
 - [ ] Distribution strategy
 
+## ToDo more
+Old priv doc with todo list: https://docs.google.com/document/d/1Ur_s500xiNctxnPkjInWZXd4CpYiCYdclqEv5qYSJv8/edit?tab=t.0#heading=h.mlu38yrrkqup
+
 ---
 *Use this list to track progress and prioritize tasks for Concord Rules development.*

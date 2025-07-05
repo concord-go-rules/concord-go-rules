@@ -48,24 +48,9 @@ The PDF contains:
 The proposal centers on two simple modifications (pass stone and last pass rules) that could unify different counting methods while respecting existing traditions.
 Concord Rules achieve high 1-point resolution scoring while avoiding tactical complications like pass fights.
 
-### Path to Adoption
+### Long Term Plans
 
-Our strategy focuses on:
-
-1. **Validation through Practice**: Pilot tournaments and parallel scoring demonstrations
-2. **Stakeholder Engagement**: Early consultation with officials from all major organizations
-3. **Gradual Implementation**: Allowing organizations to adopt at their own pace
-4. **Cultural Sensitivity**: Addressing specific concerns of each Go tradition
-5. **Technical Support**: Ensuring software and training materials are ready
-
-### Next Steps
-
-We would be honored to receive:
-
-- **Thoughtful feedback** from Go organizations and officials
-- **Opportunities** to demonstrate these ideas in friendly settings
-- **Guidance** from respected players and officials
-- **Scholarly review** from academic and technical experts
+See [LONG_TERM.md](LONG_TERM.md) for our adoption strategy and next steps.
 
 ### Contributing
 
@@ -98,11 +83,6 @@ This project aims to serve everyone in the Go community:
 - **Online platforms** could offer unified rule options
 - **International events** might run more smoothly with harmonized standards
 
-### How You Can Help
-
-We believe the best ideas emerge through community collaboration.
-Whether you're a player, official, or simply someone who loves Go, your perspective matters.
-The technical details are in the PDF, but the real work is building understanding and consensus within our community.
 
 ---
 
