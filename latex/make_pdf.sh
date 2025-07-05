@@ -6,14 +6,54 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # Change to the script directory (latex/)
 cd "$SCRIPT_DIR"
 
-# Compile LaTeX file to PDF
-pdflatex "Concord Go Rules.tex"
+# Function to show usage
+show_usage() {
+    echo "Usage: $0 [--once] [--watch]"
+    echo ""
+    echo "Options:"
+    echo "  (no args)  Show this help message"
+    echo "  --once     Compile LaTeX file once"
+    echo "  --watch    Watch for changes and auto-recompile"
+}
 
-# Move PDF up one directory if compilation succeeded
-if [ -f "Concord Go Rules.pdf" ]; then
-    mv "Concord Go Rules.pdf" ../
-    echo "PDF created and moved to parent directory"
-else
-    echo "PDF compilation failed"
-    exit 1
-fi
+# Function to compile PDF
+compile_pdf() {
+    echo "Compiling LaTeX..."
+    pdflatex "Concord Go Rules.tex"
+    
+    # Move PDF up one directory if compilation succeeded
+    if [ -f "Concord Go Rules.pdf" ]; then
+        mv "Concord Go Rules.pdf" ../
+        echo "PDF created and moved to parent directory"
+    else
+        echo "PDF compilation failed"
+        return 1
+    fi
+}
+
+# Check command line arguments
+case "$1" in
+    --once)
+        # Single compilation
+        compile_pdf
+        ;;
+    --watch)
+        echo "Watching for changes to Concord Go Rules.tex..."
+        echo "Press Ctrl+C to stop watching"
+        
+        # Initial compilation
+        compile_pdf
+        
+        # Watch for changes and recompile
+        echo "Concord Go Rules.tex" | entr -r bash -c "cd '$SCRIPT_DIR' && $(declare -f compile_pdf); compile_pdf"
+        ;;
+    "")
+        # Show help by default
+        show_usage
+        ;;
+    *)
+        echo "Unknown option: $1"
+        show_usage
+        exit 1
+        ;;
+esac
