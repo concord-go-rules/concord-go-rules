@@ -1,6 +1,7 @@
 # Concord Rules of Go
 
 **[📄 View PDF](https://github.com/lukaszlew/concord-go-rules/blob/main/Concord.pdf)**
+
 **[⬇️ Download PDF](https://raw.githubusercontent.com/lukaszlew/concord-go-rules/refs/heads/main/Concord.pdf)**
 
 ### Contributing
