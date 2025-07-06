@@ -1,15 +1,5 @@
-# Contributing
+## TODO List
 
-This project welcomes input from:
-- Go organization officials and rule committee members
-- Professional and strong amateur players
-- Tournament directors and referees
-- Go software developers
-- Academic researchers in game theory
-
-### TODO List
-
-- [ ] Add Executive Summary section to PDF
 - [ ] Create FAQ section in PDF
 - [ ] Add worked examples section to PDF
 - [ ] Ing counting section - add proper Ing rules comparison

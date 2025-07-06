@@ -23,27 +23,30 @@ Concord Go Rules PDF contain:
 
 **[⬇️ Download Concord Go Rules PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/Concord.pdf)**
 
+### Path to Adoption
+
+Our strategy focuses on:
+
+- **Validation through Practice**: Pilot tournaments and demonstrations
+- **Stakeholder Engagement**: Early consultation with officials from all major organizations
+- **Gradual Implementation**: Allowing organizations to adopt at their own pace
+- **Cultural Sensitivity**: Addressing specific concerns of each Go tradition
+- **Technical Support**: Ensuring software and training materials are ready
+
+### Contributing
+
+We believe the best ideas emerge through community collaboration.
+Whether you're a player, official, or simply someone who loves Go, your perspective matters.
+The technical details are in the PDF, but the real work is building understanding and consensus within our community.
+
+We would be honored to receive:
+
+- **Thoughtful feedback** from Go organizations, officials and Go rules experts
+- **Opportunities** to demonstrate these ideas in friendly settings
+- **Guidance** from respected players and officials
+- **Scholarly review** from academic and technical experts
 
 ### Contact
 - email: concord-go-rules@googlegroups.com
   - web email: https://groups.google.com/g/concord-go-rules
 - discord: https://discord.gg/fuBjKcDX2y
-
-### Contributing
-
-This project welcomes input from:
-- Go rules experts
-- Go organization officials and rule committee members
-- Professional and strong amateur players
-- Tournament directors and referees
-- Go software developers
-- Academic researchers
-
-### TODO List
-
-- [ ] Create FAQ section in PDF
-- [ ] Add worked examples section to PDF
-- [ ] Ing counting section - add proper Ing rules comparison
-- [ ] Professional PDF layout and formatting
-- [ ] Multi-language documentation
-- [ ] Website development
