@@ -3,11 +3,11 @@
 Concord Go Rules combine the best features of Japanese/Korean, Chinese, AGA and Taiwan rules.
 They achieve these three important goals:
 
-- *Every point matters.* Small endgame mistakes can alter the final score by a single point.
+- *Every point matters.* Small endgame mistakes can alter the final score by a single point. <br>
   (Similar to Japanese/Korean rules, unlike AGA and Chinese rules.)
-- *Both territory and area counting work.* Both methods always give the same score.
+- *Both territory and area counting work.* Both methods always give the same score. <br>
   (Similar to AGA rules, unlike Chinese and Japanese/Korean rules.)
-- *Just Play It Out.* Games can always continue until all dead stones are captured without changing the score.
+- *Just Play It Out.* Games can always continue until all dead stones are captured without changing the score. <br>
   (Similar to Chinese and AGA rules, unlike Japanese/Korean rules.)
 
 In particular they achieve rare combination of ability to combine territory counting and Just Play It Out.
