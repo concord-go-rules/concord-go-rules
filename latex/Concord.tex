@@ -29,7 +29,7 @@ They achieve these three important goals:
 \begin{itemize}
     \item \textbf{Every point matters.} Small endgame mistakes can alter the final score by a single point. (Similar to Japanese/Korean rules, unlike AGA and Chinese rules.)
     \item \textbf{Both territory and area counting work.} Both methods always give the same score. (Similar to AGA rules, unlike Chinese and Japanese/Korean rules.)
-    \item \textbf{Resolution by Play.} Games can always continue until all dead stones are captured without changing the score. (Similar to Chinese and AGA rules, unlike Japanese/Korean rules.)
+    \item \textbf{Resolution by Play.} Games can always continue until all dead stones are captured without changing the score (no complex analysis needed). (Similar to Chinese and AGA rules, unlike Japanese/Korean rules.)
 \end{itemize}
 
 \subsection*{Why This Matters}
@@ -62,9 +62,9 @@ Concord Go Rules provide a path to common standards for the global Go community.
     \begin{itemize}
     \item \textbf{Every move uses one stone, even pass.} In Concord Go Rules, a pass requires placing a ``pass stone'' in the opponent's prisoner bowl.
     This gives the opponent one point, but since games typically end with two passes, this does not change the result.
-    Pass stones are used in the USA, France and UK (AGA rules).
+    Pass stones are used in the USA, France, and UK (AGA rules).
     \item \textbf{Resolution by Play.} When scoring is unclear, Concord Go Rules allow games to continue until all dead stones are captured without changing the score, even in complex Life/Death, Seki \& Ko situations.
-    \item \textbf{Seki eyes are points.} Every surrounded point counts, even in seki.
+    \item \textbf{Seki eyes are points.} Every surrounded point counts, even in seki (mutual life positions).
     \item \textbf{Last pass.} The first and last pass in the game must be made by different players.
     Rare example where this matters: ..., B pass, W threat, B answer, W pass, B pass, \textbf{W pass}.
     \end{itemize}
@@ -72,7 +72,7 @@ Concord Go Rules provide a path to common standards for the global Go community.
 \vskip 2em%
 \subsection*{Differences from Chinese Rules}
     \begin{itemize}
-    \item \textbf{First Pass is Valuable.} White (but not Black) gets one extra point if White made the game's very first pass. This makes the first pass worth half as much as a dame point.
+    \item \textbf{First Pass is Valuable.} White (but not Black) gets one extra point if White made the game's very first pass. This makes the first pass worth half as much as a dame point (neutral point).
     This removes the one-point difference between area and territory rules that occurs in about half of even games. This is similar to Taiwan rules.
     \item \textbf{Handicap Compensation.} White gets one point for each handicap stone Black receives beyond the first.
     \end{itemize}
@@ -84,7 +84,7 @@ Concord Go Rules provide a path to common standards for the global Go community.
     In Concord Go Rules, the final pass must be made by a different player than whoever made the very first pass.
 
     \item \textbf{Area Counting Adjustment.} When using area counting, White (but not Black) gets an extra point if White made the game's very first pass.
-    This makes the first pass half as valuable as a dame point.
+    This makes the first pass half as valuable as a dame point (neutral point).
     \end{itemize}
 
 
@@ -180,9 +180,9 @@ Concord Go Rules improve on Two Button Go by not requiring additional physical b
 
 % --------------------------------------------------------------------------------------------------
 \newpage
-\section*{Equivalence of Area and Territory counting}
+\section*{Equivalence of area and territory counting}
 
-This section proves that the two counting methods give equivalent results under Concord Go Rules.
+This mathematical proof demonstrates why both territory and area counting methods always give identical results under Concord Go Rules, eliminating the traditional trade-off between counting systems.
 
 \textbf{Definitions of variables}
 
@@ -190,7 +190,7 @@ This section proves that the two counting methods give equivalent results under 
 \item $C_B$, $C_W$ - number of stones \textbf{Captured} by Black and White
 \item $B_B$, $B_W$ - number of Black and White stones left on \textbf{Board}, not counting handicap
 \item $H_1$ - number of handicap stones minus 1 (i.e., number of extra stones placed with the first Black move).
-In an even game $H_1 = 0$
+In an even game $H_1 = 0$. With 3 handicap stones, $H_1 = 2$
 \item $P_B$, $P_W$ - number of \textbf{Passes} by Black and White
 \item $E_B$, $E_W$ - number of \textbf{Empty} intersections surrounded by Black and White
 \item $M_B$, $M_W$ - total number of \textbf{Moves} (board plays and passes) made by Black and White.
