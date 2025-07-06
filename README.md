@@ -1,6 +1,6 @@
 # Concord Go Rules
 
-Concord Go Rules combine the best features of Japanese/Korean, Chinese, AGA and Taiwan rules.
+Concord Go Rules combine the best features of Japanese/Korean, Chinese, AGA and Taiwan rules. <br>
 They achieve these three important goals:
 
 - *Every point matters.* Small endgame mistakes can alter the final score by a single point. <br>
@@ -14,7 +14,7 @@ In particular, Concord Go Rules achieve the rare combination of territory counti
 
 ### Rules
 
-Concord Go Rules PDF contain:
+Concord Go Rules PDF contains:
 - **Why Concord Go Rules?** - Overview of the three key goals and comparison with other rule systems
 - **Concord Go Rules for Users of Popular Rulesets** - Specific differences from Japanese/Korean, Chinese, and AGA rules
 - **The Rules** - Complete ruleset covering setup, play, end of play, and scoring
