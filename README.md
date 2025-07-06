@@ -10,7 +10,7 @@ They achieve these three important goals:
 - *Resolution by Play.* Games can always continue until all dead stones are captured without changing the score. <br>
   (Similar to Chinese and AGA rules, unlike Japanese/Korean rules.)
 
-In particular Concord Go Rules achieve desirable combination of ability to combine territory counting and Resolution by Play.
+In particular, Concord Go Rules achieve the rare combination of territory counting and Resolution by Play.
 
 ### Rules
 
