@@ -1,56 +1,7 @@
 # Concord Rules of Go
 
-## An Aspiration Toward Unified Go Rules
-
-The Concord Rules of Go explore the possibility of greater harmony between different Go rule systems used by organizations worldwide.
-This proposal respectfully examines how the rich traditions of major Go organizations might find common ground.
-These include the Nihon Ki-in, Kansai Ki-in, Chinese Weiqi Association, Korean Baduk Association, Taiwan Qixi Association, European Go Federation (EGF), American Go Association (AGA), and others.
-
-### Why This Matters
-
-Go organizations worldwide use slightly different rule systems, each with their own strengths.
-These differences create confusion for players and complications for international competition.
-Current rule systems also leave beginners puzzled by special cases and create challenges for Go engines that need precise mathematical rules.
-
-The Concord Rules explore whether these systems might be harmonized while serving everyone from newcomers to AI researchers.
-
-### What We Hope to Offer
-
-- **Respect for Tradition**: Built upon the wisdom of existing rule systems, honoring their contributions
-- **Potential for Clarity**: May help reduce disputes about life and death or scoring methods
-- **Mathematical Foundation**: Offers proven equivalence between counting methods
-- **Gentle Approach**: Explores only minimal modifications (pass stones and last pass rule)
-
-### Current Status
-
-This is a **humble proposal and working document** intended to spark thoughtful discussion within the Go community. We hope this exploration might be:
-
-- **Respectful**: Honoring all traditional approaches to the game we love
-- **Accessible**: Easy to understand and consider
-- **Optimal Design**: Designed to be the best possible rules for achieving all stated goals 
-
-### Getting Started
-
 **[📄 View the Complete PDF Rules](https://github.com/lukaszlew/concord-go-rules/blob/main/Concord%20Go%20Rules.pdf)**
 
-To build the PDF documentation locally:
-```bash
-latex/make_pdf.sh
-```
-
-The PDF contains:
-- Complete rule specifications
-- Detailed comparisons with existing systems
-- Mathematical proofs of scoring equivalence
-
-### Key Insight
-
-The proposal centers on two simple modifications (pass stone and last pass rules) that could unify different counting methods while respecting existing traditions.
-Concord Rules achieve high 1-point resolution scoring while avoiding tactical complications like pass fights.
-
-### Long Term Plans
-
-See [LONG_TERM.md](LONG_TERM.md) for our adoption strategy and next steps.
 
 ### Contributing
 
@@ -60,6 +11,25 @@ This project welcomes input from:
 - Tournament directors and referees
 - Go software developers
 - Academic researchers in game theory
+
+### TODO List
+
+- [ ] Add Executive Summary section to PDF
+- [ ] Create FAQ section in PDF
+- [ ] Add worked examples section to PDF
+- [ ] Ing counting section - add proper Ing rules comparison
+- [ ] Professional PDF layout and formatting
+- [ ] Multi-language documentation
+- [ ] Website development
+
+Old priv doc with todo list: https://docs.google.com/document/d/1Ur_s500xiNctxnPkjInWZXd4CpYiCYdclqEv5qYSJv8/edit?tab=t.0#heading=h.mlu38yrrkqup
+
+### Build PDF
+
+To build the PDF documentation locally:
+```bash
+latex/make_pdf.sh
+```
 
 ### Our Hope
 
@@ -90,8 +60,8 @@ This project aims to serve everyone in the Go community:
 
 **Development**: See our [TODO list](TODO.md) for planned improvements and ways to contribute.
 
-**Contact**: 
-- email: concord-go-rules@googlegroups.com 
+**Contact**:
+- email: concord-go-rules@googlegroups.com
   - web email: https://groups.google.com/g/concord-go-rules
 - discord: https://discord.gg/fuBjKcDX2y
 
