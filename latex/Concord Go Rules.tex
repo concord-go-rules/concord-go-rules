@@ -4,65 +4,69 @@
 \usepackage{enumerate}
 \usepackage{enumitem}
 \usepackage{parskip}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=cyan,
+}
+
 
 \setlist[itemize,1]{label=\textbullet}
 \setlist[itemize,2]{label=\textbullet}
 
-% Custom title without extra packages
-\makeatletter
-\renewcommand{\maketitle}{%
-  \begin{center}%
-    {\Large\bfseries \@title}%
-    \vskip 0.5em%
-  \end{center}%
-  \vskip 0.5em%
-}
-\makeatother
-
-\title{Concord Rules}
-\author{}
-\date{}
-
 \begin{document}
+% --------------------------------------------------------------------------------------------------
 
-\maketitle
+% Title
+\begin{center} {\LARGE\bfseries Concord Rules} \vskip 3em \end{center}
 
-\section*{Goals}
+\section*{Why Concord Rules for the Game of Go?}
 
-This document defines the Concord Rules for the game of Go, a rule set aiming for three goals:
+Concord Rules combine the best features of Japanese/Korean, Chinese, AGA and Taiwan rules.
+Concord Rules achieve these three goals:
 
-\begin{enumerate}
-\item \textbf{Resolvable Dead Stones}: Games can always be played out until all dead stones are captured without affecting the score.
-\item \textbf{Score Equivalence}: Territory and Area counting methods consistently yield the same game result.
-\item \textbf{High Score Granularity}: Small endgame mistakes can alter the final score by a single point, similar to territory rules.
-\end{enumerate}
+\begin{itemize}
+    \item \textbf{Every point matters.} Small endgame mistakes can alter the final score by a single point. (Similar to Japanese/Korean rules, unlike AGA and Chinese rules.)
+    \item \textbf{You can use both territory and area counting methods.} Both methods always yield the same game result. (Similar to AGA rules. Unlike Chinese and Japanese/Korean rules.)
+    \item \textbf{Just play it out.} Games can always be played out until all dead stones are captured without changing the score. (Similar to Chinese and AGA rules, unlike Japanese/Korean rules.)
+\end{itemize}
 
-% \section*{Informal Comparisons}
-
-\subsection*{Comparison To Japanese/Korean Rules (with Concord Territory Counting)}
+% --------------------------------------------------------------------------------------------------
+\newpage
+\section*{Concord Rules for Users of Popular Rulesets}
+\vskip 2em%
+\subsection*{Differences from Japanese/Korean Rules}
     \begin{itemize}
-    \item \textbf{Pass Stones:} In Concord Rules, a pass requires a giving ``pass stone'' as a prisoner to the opponent.
-    \item \textbf{Life/Death \& Ko:} Concord Rules allows games to be resumed to capture all dead stones without affecting the score.
+    \item \textbf{Every move uses one stone, even pass.} In Concord Rules, a pass requires placing a ``pass stone'' in the opponent's prisoner bowl.
+    This gives them one point, but since all games typically end with two passes, this does not change the result.
+    Pass stones are used in USA, France and UK (AGA rules).
+    \item \textbf{Just play it out.} When scoring is unclear, Concord Rules allow games to continue until all dead stones are captured without changing the score, even in complex Life/Death, Seki \& Ko situations.
+    \item \textbf{Seki eyes are points.} Every surrounded point counts, even in seki.
     \item \textbf{Last pass.} The first and last pass play in the game must be played by a different player.
-    In the rare cases three pass plays at the end might be needed, for instance: ..., B pass, W threat, B answer, W pass, B pass, W pass.
-    \item \textbf{Effect.} Concord Rules maintain high score granularity, while adding score equivalence and removable dead stones.
+    Example where that matters: ..., B pass, W threat, B answer, W pass, B pass, W pass.
     \end{itemize}
-\subsection*{Comparison To Chinese Rules (with Concord Area Counting)}
+
+\vskip 2em%
+\subsection*{Differences from Chinese Rules}
     \begin{itemize}
-    \item \textbf{First Pass is Valuable:} White gets one extra point if White made the game's very first pass.
-    \item \textbf{Handicap Compensation:} White gains one point for each handicap stone Black receives beyond the first.
-    \item \textbf{Effect.} Concord Rules maintain resolvable dead stones, while adding score equivalence and high score granularity
+    \item \textbf{First Pass is Valuable.} White (but not Black) gets one extra point if White made the game's very first pass. This makes the first pass worth half as much as dame.
+    This removes the one-point difference between area and territory rules that happens in about half of even games. This is similar to Taiwan rules.
+    \item \textbf{Handicap Compensation.} White gains one point for each handicap stone Black receives beyond the first.
     \end{itemize}
-\subsection*{Comparison To AGA Rules}
+
+\vskip 2em%
+\subsection*{Differences from AGA Rules}
     \begin{itemize}
-    \item \textbf{Last Pass:} In Concord, the game's final pass must be made by a different player than the one who made the game's very first pass.
-    (AGA: White always makes the last pass.)
-    \item \textbf{Scoring Adjustment for Equivalence:} For territory counting, the last pass rule modification is key.
-    For area counting, White receives an additional point if White made the game's very first pass.
-    \item \textbf{Effect.} Concord Rules maintain resolvable dead stones and score equivalence but add high score granularity.
+    \item \textbf{Game typically ends with two passes.} In AGA rules, White always makes the last pass, causing three passes in half of the games.
+    In Concord, the game's final pass must be made by a different player than whoever made the game's very first pass.
+
+    \item \textbf{Area Counting Adjustment.} If area counting is used, White (but not Black) receives an additional point if White made the game's very first pass.
+    This makes the first pass half as valuable as dame.
     \end{itemize}
 
 
+% --------------------------------------------------------------------------------------------------
 \newpage
 \section*{The Rules}
 
@@ -122,8 +126,12 @@ The player with more points wins.
     \end{itemize}
 \end{itemize}
 
+% --------------------------------------------------------------------------------------------------
 \newpage
-\section*{Historical Context: Learning from AGA Rules}
+
+\section*{Discussion and commentary}
+
+\subsection*{Historical Context: Learning from AGA Rules}
 
 The creation of AGA rules was driven by similar goals to unify counting methods.
 Initially, they added pass stones without the last pass rule, which led to pass fights.
@@ -132,25 +140,25 @@ This fixed the pass fights but created only 2-point resolution scoring.
 
 Concord Rules achieve high 1-point resolution by using a different last pass rule, which also adheres to traditions of 2 passes ending the game.
 
-\section*{Audiences}
+\subsection*{Ikeda rules}
+Ikeda \href{https://gobase.org/studying/rules/ikeda/}{wrote a book} searching for ideal Go rules.
+\href{https://gobase.org/studying/rules/ikeda/?sec=e_rules}{Ikeda's preferred Territory rules I} almost always give the same result as Ikeda's area rules III
+- "provided no unwarranted passes are made before the end of competitive play".
+Concord rules improve on them by making territory and area counting always give the same result, even if extra passes are made.
 
-The Concord Rules represent a design for achieving all stated goals, addressing the needs of multiple audiences:
+\subsection*{Taiwan rules}
+\href{https://senseis.xmp.net/?TaiwanRules}{Taiwan rules} are Concord rules limited to area counting.
 
-\textbf{For Beginners:} Many new players struggle with unclear situations like disputed dead stones or complex scoring scenarios.
-The Concord Rules eliminate these gray areas, providing clear procedures that any player can follow.
-
-\textbf{For Technical Players:} Players with mathematical or technical backgrounds often notice gaps and inconsistencies in traditional rule systems.
-The Concord Rules address these systematic issues with mathematically sound solutions.
-
-\textbf{For Go Engines and AI:} Computer Go programs require mathematically precise rules to function properly.
-Ambiguous situations that humans resolve through judgment create problems for engines.
-In the age of AI, where programs can evaluate positions to fractions of points, high-resolution scoring becomes crucial.
+\subsection*{Two Button Go}
+\href{https://senseis.xmp.net/?TwoButtonGo}{Two Button Go} rules with territory counting are equivalent to Concord rules with territory counting.
+Concord rules improve on Two Button Go by not requiring additional physical buttons.
 
 
+% --------------------------------------------------------------------------------------------------
 \newpage
 \section*{Equivalence of Area and Territory counting}
 
-This section* demonstrates the equivalence under Concord Rules.
+This section demonstrates the equivalence under Concord Rules.
 
 \textbf{Definitions of variables}
 
