@@ -7,10 +7,10 @@ They achieve these three important goals:
   (Similar to Japanese/Korean rules, unlike AGA and Chinese rules.)
 - *Both territory and area counting work.* Both methods always give the same score. <br>
   (Similar to AGA rules, unlike Chinese and Japanese/Korean rules.)
-- *Just Play It Out.* Games can always continue until all dead stones are captured without changing the score. <br>
+- *Resolution by Play.* Games can always continue until all dead stones are captured without changing the score. <br>
   (Similar to Chinese and AGA rules, unlike Japanese/Korean rules.)
 
-In particular they achieve rare combination of ability to combine territory counting and Just Play It Out.
+In particular Concord Go Rules achieve desirable combination of ability to combine territory counting and Resolution by Play.
 
 ### Rules
 
