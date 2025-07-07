@@ -10,13 +10,13 @@ The PDF above contains:
 
 Concord Go Rules combine the best features of Japanese/Korean, Chinese, AGA and Taiwan rules.
 
-| Feature                   | Japanese /<br>Korean |  Chinese  |  AGA  | **Concord** |
-|---------------------------|:--------------------:|:---------:|:-----:|:-----------:|
-| Territory Counting        |         ✅           |     ❌    |  ✅   |      ✅     |
-| Area Counting             |         ❌           |     ✅    |  ✅   |      ✅     |
-| Every Point Matters       |         ✅           |     ❌    |  ❌   |      ✅     |
-| Resolution by Play        |         ❌           |     ✅    |  ✅   |      ✅     |
-| Game Ends with Two Passes |         ✅           |     ✅    |  ❌   |      ✅     |
+| Feature                   | Japanese /<br>Korean |  Chinese  |  AGA  | Taiwan | **Concord** |
+|---------------------------|:--------------------:|:---------:|:-----:|:------:|:-----------:|
+| Territory Counting        |         ✅           |     ❌    |  ✅   |   ❌   |      ✅     |
+| Area Counting             |         ❌           |     ✅    |  ✅   |   ✅   |      ✅     |
+| Every Point Matters       |         ✅           |     ❌    |  ❌   |   ✅   |      ✅     |
+| Resolution by Play        |         ❌           |     ✅    |  ✅   |   ✅   |      ✅     |
+| Game Ends with Two Passes |         ✅           |     ✅    |  ❌   |   ✅   |      ✅     |
 
 Concord Go Rules achieve these important goals:
 
