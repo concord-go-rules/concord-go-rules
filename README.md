@@ -20,14 +20,14 @@ Concord Go Rules combine the best features of Japanese/Korean, Chinese, AGA and 
 | Territory Counting        |         ✅           |     ❌    |  ✅   |   ❌   |      ✅     |
 | Area Counting             |         ❌           |     ✅    |  ✅   |   ✅   |      ✅     |
 | Every Point Counts        |         ✅           |     ❌    |  ❌   |   ✅   |      ✅     |
-| Resolution by Play        |         ❌           |     ✅    |  ✅   |   ✅   |      ✅     |
+| Play Settles Disputes     |         ❌           |     ✅    |  ✅   |   ✅   |      ✅     |
 | Game Ends with Two Passes |         ✅           |     ✅    |  ❌   |   ✅   |      ✅     |
 
 Concord Go Rules achieve these important goals:
 
 - *Both territory and area counting work.* Both methods always give the same score.
 - *Every point counts.* The rules preserve single-point precision in final scores, capturing skill differences that 2-point Chinese and AGA scoring might miss.
-- *Resolution by Play.* Games can continue until all dead stones are captured.
+- *Play Settles Disputes.* When life and death is unclear, simply capture all the dead stones - the final score remains unchanged.
 
 ### Commentary
 
