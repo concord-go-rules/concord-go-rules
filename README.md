@@ -7,7 +7,7 @@ They achieve these important goals:
 
 - *Every point matters.* Small endgame mistakes can alter the final score by a single point. <br>
 - *Both territory and area counting work.* Both methods always give the same score. <br>
-- *Resolution by Play.* Games can always continue until all dead stones are captured without changing the score (no complex analysis needed). <br>
+- *Resolution by Play.* Games can continue until all dead stones are captured (without changing the score). <br>
 
 | Rules           | Territory Counting | Area Counting | Every Point Matters | Resolution by Play | Ends with Two Passes |
 |-----------------|:------------------:|:-------------:|:-------------------:|:------------------:|:--------------------:|
@@ -15,6 +15,14 @@ They achieve these important goals:
 | Chinese         |         ❌         |       ✅      |         ❌          |         ✅         |          ✅          |
 | AGA             |         ✅         |       ✅      |         ❌          |         ✅         |          ❌          |
 | **Concord**     |         ✅         |       ✅      |         ✅          |         ✅         |          ✅          |
+
+| Feature              | Japanese/Korean | Chinese | AGA  | **Concord** |
+|----------------------|:---------------:|:-------:|:----:|:-----------:|
+| Territory Counting   |        ✅       |    ❌   |  ✅  |      ✅     |
+| Area Counting        |        ❌       |    ✅   |  ✅  |      ✅     |
+| Every Point Matters  |        ✅       |    ❌   |  ❌  |      ✅     |
+| Resolution by Play   |        ❌       |    ✅   |  ✅  |      ✅     |
+| Ends with Two Passes |        ✅       |    ✅   |  ❌  |      ✅     |
 
 In particular, Concord Go Rules achieve the rare combination of territory counting and Resolution by Play.
 
