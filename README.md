@@ -1,10 +1,6 @@
 # Concord Go Rules
 
-**[⬇️ Concord Go Rules PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/Concord.pdf)** - Quickstart guide and complete ruleset
-
-The PDF above contains:
-- **Quick Start Guide** - Key differences from Japanese/Korean, Chinese, and AGA rules
-- **Complete Ruleset** - Full rules for setup, play, scoring, and dispute resolution
+**[⬇️ **Quick Start Guide** and **Complete Ruleset** PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/Concord.pdf)**
 
 ### Why Concord Go Rules?
 
