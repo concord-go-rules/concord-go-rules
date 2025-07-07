@@ -3,14 +3,18 @@
 **[⬇️ Concord Go Rules PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/Concord.pdf)** - Quickstart guide and complete ruleset
 
 Concord Go Rules combine the best features of Japanese/Korean, Chinese, AGA and Taiwan rules.
-They achieve these three important goals:
+They achieve these important goals:
 
 - *Every point matters.* Small endgame mistakes can alter the final score by a single point. <br>
-  (Similar to Japanese/Korean rules, unlike AGA and Chinese rules.)
 - *Both territory and area counting work.* Both methods always give the same score. <br>
-  (Similar to AGA rules, unlike Chinese and Japanese/Korean rules.)
 - *Resolution by Play.* Games can always continue until all dead stones are captured without changing the score (no complex analysis needed). <br>
-  (Similar to Chinese and AGA rules, unlike Japanese/Korean rules.)
+
+| Rules           | Territory Counting | Area Counting | Every Point Matters | Resolution by Play | Ends with Two Passes |
+|-----------------|:------------------:|:-------------:|:-------------------:|:------------------:|:--------------------:|
+| Japanese/Korean |         ✅         |       ❌      |         ✅          |         ❌         |          ✅          |
+| Chinese         |         ❌         |       ✅      |         ❌          |         ✅         |          ✅          |
+| AGA             |         ✅         |       ✅      |         ❌          |         ✅         |          ❌          |
+| **Concord**     |         ✅         |       ✅      |         ✅          |         ✅         |          ✅          |
 
 In particular, Concord Go Rules achieve the rare combination of territory counting and Resolution by Play.
 
@@ -20,12 +24,10 @@ The PDF above contains:
 
 ### Commentary
 
-### Commentary
-
 **[⬇️ Commentary PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/ConcordCommentary.pdf)** - Background and analysis
 
 - **Why Concord Go Rules?** - Overview of the three key goals and comparison with other rule systems
-- **Historical Context** - Learning from AGA rules and comparison with Ikeda rules, Taiwan rules, and Two Button Go  
+- **Historical Context** - Learning from AGA rules and comparison with Ikeda rules, Taiwan rules, and Two Button Go
 - **Mathematical Proof** - Demonstration that both counting methods give identical results
 
 ### Path to Adoption
