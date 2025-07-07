@@ -2,12 +2,13 @@
 
 **[⬇️ Concord Go Rules PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/Concord.pdf)** - Quickstart guide and complete ruleset
 
-Concord Go Rules combine the best features of Japanese/Korean, Chinese, AGA and Taiwan rules.
-They achieve these important goals:
+The PDF above contains:
+- **Quick Start Guide** - Key differences from Japanese/Korean, Chinese, and AGA rules
+- **Complete Ruleset** - Full rules for setup, play, scoring, and dispute resolution
 
-- *Every point matters.* Small endgame mistakes can alter the final score by a single point. <br>
-- *Both territory and area counting work.* Both methods always give the same score. <br>
-- *Resolution by Play.* Games can continue until all dead stones are captured (without changing the score). <br>
+### Why Concord Go Rules?
+
+Concord Go Rules combine the best features of Japanese/Korean, Chinese, AGA and Taiwan rules.
 
 | Feature                   | Japanese /<br>Korean |  Chinese  |  AGA  | **Concord** |
 |---------------------------|:--------------------:|:---------:|:-----:|:-----------:|
@@ -17,11 +18,11 @@ They achieve these important goals:
 | Resolution by Play        |         ❌           |     ✅    |  ✅   |      ✅     |
 | Game Ends with Two Passes |         ✅           |     ✅    |  ❌   |      ✅     |
 
-In particular, Concord Go Rules achieve the rare combination of territory counting and Resolution by Play.
+Concord Go Rules achieve these important goals:
 
-The PDF above contains:
-- **Quick Start Guide** - Key differences from Japanese/Korean, Chinese, and AGA rules
-- **Complete Ruleset** - Full rules for setup, play, scoring, and dispute resolution
+- *Every point matters.* Small endgame mistakes can alter the final score by a single point. <br>
+- *Both territory and area counting work.* Both methods always give the same score. <br>
+- *Resolution by Play.* Games can continue until all dead stones are captured (without changing the score). <br>
 
 ### Commentary
 
@@ -55,6 +56,5 @@ We would be honored to receive:
 - **Scholarly review** from academic and technical experts
 
 ### Contact
-- **Email**: concord-go-rules@googlegroups.com
-  - [Web interface](https://groups.google.com/g/concord-go-rules)
+- **Email**: concord-go-rules@googlegroups.com  ([Web](https://groups.google.com/g/concord-go-rules))
 - **Discord**: https://discord.gg/fuBjKcDX2y
