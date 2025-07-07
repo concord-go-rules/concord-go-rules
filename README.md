@@ -12,16 +12,18 @@ They achieve these three important goals:
 
 In particular, Concord Go Rules achieve the rare combination of territory counting and Resolution by Play.
 
-### Rules
+### Documentation
 
-Concord Go Rules PDF contains:
-- **Why Concord Go Rules?** - Overview of the three key goals and comparison with other rule systems
-- **Concord Go Rules for Users of Popular Rulesets** - Specific differences from Japanese/Korean, Chinese, and AGA rules
+We provide two complementary documents:
+
+**[⬇️ Concord Go Rules PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/Concord.pdf)** - The complete ruleset
+- **Comparison with Popular Rulesets** - Specific differences from Japanese/Korean, Chinese, and AGA rules  
 - **The Rules** - Complete ruleset covering setup, play, end of play, and scoring
-- **Discussion and Commentary** - Historical context, comparison with AGA rules, and references to Ikeda rules, Taiwan rules, and Two Button Go
-- **Equivalence of Area and Territory Counting** - Mathematical proof that both counting methods give the same result
 
-**[⬇️ Download Concord Go Rules PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/Concord.pdf)**
+**[⬇️ Commentary PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/ConcordCommentary.pdf)** - Background and analysis
+- **Why Concord Go Rules?** - Overview of the three key goals and comparison with other rule systems
+- **Historical Context** - Learning from AGA rules and comparison with Ikeda rules, Taiwan rules, and Two Button Go  
+- **Mathematical Proof** - Demonstration that both counting methods give identical results
 
 ### Path to Adoption
 
