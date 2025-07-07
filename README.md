@@ -1,6 +1,6 @@
 # Concord Go Rules
 
-**[⬇️ **Quick Start Guide** and **Complete Ruleset** PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/Concord.pdf)**
+**[⬇️ Quick Start Guide and Complete Ruleset PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/Concord.pdf)**
 
 ### Why Concord Go Rules?
 
