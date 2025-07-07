@@ -16,13 +16,13 @@ Concord Go Rules combine the best features of Japanese/Korean, Chinese, AGA and 
 
 Concord Go Rules achieve these important goals:
 
-- *Every point matters.* Small endgame mistakes can alter the final score by a single point. <br>
-- *Both territory and area counting work.* Both methods always give the same score. <br>
-- *Resolution by Play.* Games can continue until all dead stones are captured (without changing the score). <br>
+- *Both territory and area counting work.* Both methods always give the same score.
+- *Every point matters.* Small endgame mistakes can alter the final score by a single point.
+- *Resolution by Play.* Games can continue until all dead stones are captured.
 
 ### Commentary
 
-**[⬇️ Commentary PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/ConcordCommentary.pdf)** - Background and analysis
+**[⬇️ Commentary PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/ConcordCommentary.pdf)**
 
 - **Why Concord Go Rules?** - Overview of the three key goals and comparison with other rule systems
 - **Historical Context** - Learning from AGA rules and comparison with Ikeda rules, Taiwan rules, and Two Button Go
