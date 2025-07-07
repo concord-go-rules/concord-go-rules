@@ -12,21 +12,31 @@ show_usage() {
     echo ""
     echo "Options:"
     echo "  (no args)  Show this help message"
-    echo "  --once     Compile LaTeX file once"
+    echo "  --once     Compile LaTeX files once"
     echo "  --watch    Watch for changes and auto-recompile"
 }
 
 # Function to compile PDF
 compile_pdf() {
-    echo "Compiling LaTeX..."
-    pdflatex "Concord.tex"
+    echo "Compiling LaTeX files..."
     
-    # Move PDF up one directory if compilation succeeded
+    # Compile main rules
+    pdflatex "Concord.tex"
     if [ -f "Concord.pdf" ]; then
         mv "Concord.pdf" ../
-        echo "PDF created and moved to parent directory"
+        echo "Concord.pdf created and moved to parent directory"
     else
-        echo "PDF compilation failed"
+        echo "Concord.pdf compilation failed"
+        return 1
+    fi
+    
+    # Compile commentary
+    pdflatex "ConcordCommentary.tex"
+    if [ -f "ConcordCommentary.pdf" ]; then
+        mv "ConcordCommentary.pdf" ../
+        echo "ConcordCommentary.pdf created and moved to parent directory"
+    else
+        echo "ConcordCommentary.pdf compilation failed"
         return 1
     fi
 }
@@ -38,14 +48,14 @@ case "$1" in
         compile_pdf
         ;;
     --watch)
-        echo "Watching for changes to Concord.tex..."
+        echo "Watching for changes to Concord.tex and ConcordCommentary.tex..."
         echo "Press Ctrl+C to stop watching"
         
         # Initial compilation
         compile_pdf
         
         # Watch for changes and recompile
-        echo "Concord.tex" | entr -r bash -c "cd '$SCRIPT_DIR' && $(declare -f compile_pdf); compile_pdf"
+        printf "Concord.tex\nConcordCommentary.tex\n" | entr -r bash -c "cd '$SCRIPT_DIR' && $(declare -f compile_pdf); compile_pdf"
         ;;
     "")
         # Show help by default
