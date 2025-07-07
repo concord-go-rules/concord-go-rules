@@ -1,5 +1,15 @@
 # Concord Go Rules
 
+### Concord Go Rules
+
+**When passing, place a pass stone in your opponent's prisoner bowl.** This gives the opponent one point, but since games typically end with two passes, this does not change the result.
+
+**When scoring is unclear, continue playing until all dead stones are captured.** This resolves disputes without changing the score, even in complex Life/Death, Seki & Ko situations.
+
+**Count every surrounded point as territory, even in seki.** Seki (mutual life positions) eyes are points.
+
+**The first and last pass must be made by different players.** This prevents pass fights. In rare cases, three passes at the end might be needed.
+
 **[⬇️ **Quick Start Guide** and **Complete Ruleset** PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/Concord.pdf)**
 
 ### Why Concord Go Rules?
