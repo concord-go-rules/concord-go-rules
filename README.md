@@ -1,5 +1,7 @@
 # Concord Go Rules
 
+**[⬇️ Concord Go Rules PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/Concord.pdf)** - Quickstart guide and complete ruleset
+
 Concord Go Rules combine the best features of Japanese/Korean, Chinese, AGA and Taiwan rules.
 They achieve these three important goals:
 
@@ -12,15 +14,16 @@ They achieve these three important goals:
 
 In particular, Concord Go Rules achieve the rare combination of territory counting and Resolution by Play.
 
-### Documentation
+The PDF above contains:
+- **Quick Start Guide** - Key differences from Japanese/Korean, Chinese, and AGA rules
+- **Complete Ruleset** - Full rules for setup, play, scoring, and dispute resolution
 
-We provide two complementary documents:
+### Commentary
 
-**[⬇️ Concord Go Rules PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/Concord.pdf)** - The complete ruleset
-- **Comparison with Popular Rulesets** - Specific differences from Japanese/Korean, Chinese, and AGA rules  
-- **The Rules** - Complete ruleset covering setup, play, end of play, and scoring
+### Commentary
 
 **[⬇️ Commentary PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/ConcordCommentary.pdf)** - Background and analysis
+
 - **Why Concord Go Rules?** - Overview of the three key goals and comparison with other rule systems
 - **Historical Context** - Learning from AGA rules and comparison with Ikeda rules, Taiwan rules, and Two Button Go  
 - **Mathematical Proof** - Demonstration that both counting methods give identical results
@@ -39,7 +42,7 @@ Our strategy focuses on:
 
 We believe the best ideas emerge through community collaboration.
 Whether you're a player, official, or simply someone who loves Go, your perspective matters.
-The technical details are in the PDF, but the real work is building understanding and consensus within our community.
+The technical details are in the PDFs above, but the real work is building understanding and consensus within our community.
 
 We would be honored to receive:
 
@@ -49,6 +52,6 @@ We would be honored to receive:
 - **Scholarly review** from academic and technical experts
 
 ### Contact
-- email: concord-go-rules@googlegroups.com
-  - web email: https://groups.google.com/g/concord-go-rules
-- discord: https://discord.gg/fuBjKcDX2y
+- **Email**: concord-go-rules@googlegroups.com
+  - [Web interface](https://groups.google.com/g/concord-go-rules)
+- **Discord**: https://discord.gg/fuBjKcDX2y
