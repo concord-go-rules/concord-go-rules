@@ -19,7 +19,7 @@ Concord Go Rules combine the best features of Japanese/Korean, Chinese, AGA and 
 |---------------------------|:--------------------:|:---------:|:-----:|:------:|:-----------:|
 | Territory Counting        |         ✅           |     ❌    |  ✅   |   ❌   |      ✅     |
 | Area Counting             |         ❌           |     ✅    |  ✅   |   ✅   |      ✅     |
-| Every Point Matters       |         ✅           |     ❌    |  ❌   |   ✅   |      ✅     |
+| Every Point Counts        |         ✅           |     ❌    |  ❌   |   ✅   |      ✅     |
 | Resolution by Play        |         ❌           |     ✅    |  ✅   |   ✅   |      ✅     |
 | Game Ends with Two Passes |         ✅           |     ✅    |  ❌   |   ✅   |      ✅     |
 
