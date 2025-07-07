@@ -1,19 +1,19 @@
-# Concord Go Rules
+# Concord Rules of Go
 
 **Homepage**: https://github.com/concord-go-rules
 
 **[⬇️ Quick Start Guide and Complete Ruleset PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/Concord.pdf)**
 
-### How to Play Go with Concord Go Rules?
+### How to Play Go with Concord Rules?
 
 - **When passing, place a pass stone in your opponent's prisoner bowl.** This gives the opponent one point, but since games typically end with two passes, this does not change the result.
 - **The first and last pass must be made by different players.**
 - **Count every surrounded point as territory, even in seki.** Seki (mutual life positions) eyes are points.
 - **When scoring is unclear, continue playing until all dead stones are captured.** This does not change the game's final score.
 
-### Why Concord Go Rules?
+### Why Concord Rules?
 
-Concord Go Rules combine the best features of Japanese/Korean, Chinese, AGA and Taiwan rules.
+Concord Rules combine the best features of Japanese/Korean, Chinese, AGA and Taiwan rules.
 
 | Feature                   | Japanese /<br>Korean |  Chinese  |  AGA  | Taiwan | **Concord** |
 |---------------------------|:--------------------:|:---------:|:-----:|:------:|:-----------:|
@@ -23,7 +23,7 @@ Concord Go Rules combine the best features of Japanese/Korean, Chinese, AGA and 
 | Play Settles Disputes     |         ❌           |     ✅    |  ✅   |   ✅   |      ✅     |
 | Game Ends with Two Passes |         ✅           |     ✅    |  ❌   |   ✅   |      ✅     |
 
-Concord Go Rules achieve these important goals:
+Concord Rules achieve these important goals:
 
 - *Both territory and area counting work.* Both methods always give the same score.
 - *Every point counts.* The rules preserve single-point precision in final scores, capturing skill differences that 2-point Chinese and AGA scoring might miss.
@@ -33,7 +33,7 @@ Concord Go Rules achieve these important goals:
 
 **[⬇️ Commentary PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/ConcordCommentary.pdf)**
 
-- **Why Concord Go Rules?** - Overview of the three key goals and comparison with other rule systems
+- **Why Concord Rules?** - Overview of the three key goals and comparison with other rule systems
 - **Historical Context** - Learning from AGA rules and comparison with Ikeda rules, Taiwan rules, and Two Button Go
 - **Mathematical Proof** - Demonstration that both counting methods give identical results
 
