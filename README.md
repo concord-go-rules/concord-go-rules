@@ -58,6 +58,7 @@ We would be honored to receive:
 - **Guidance** from respected players and officials
 - **Scholarly review** from academic and technical experts
 
-### Contact
-- **Email**: concord-go-rules@googlegroups.com  ([Web](https://groups.google.com/g/concord-go-rules))
+How to get involved:
+
+- **Email group**: concord-go-rules@googlegroups.com  ([Web](https://groups.google.com/g/concord-go-rules))
 - **Discord**: https://discord.gg/fuBjKcDX2y

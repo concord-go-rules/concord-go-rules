@@ -1,0 +1,70 @@
+__Homepage__: https://github.com/concord-go-rules
+
+__Download__: [Quick Start Guide and Complete Ruleset PDF|https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/Concord.pdf]
+
+== Why Concord Go Rules? ==
+
+Concord Go Rules combine the best features of Japanese/Korean, Chinese, AGA and Taiwan rules.
+
+{{special:table | border=1 | cellpadding=5
+|= Feature |= Japanese%%%& Korean |= Chinese |= AGA |= Taiwan |= __Concord__
+|-
+| Territory Counting | ✅ | ❌ | ✅ | ❌ | ✅
+|-
+| Area Counting | ❌ | ✅ | ✅ | ✅ | ✅
+|-
+| Every Point Matters | ✅ | ❌ | ❌ | ✅ | ✅
+|-
+| Resolution by Play | ❌ | ✅ | ✅ | ✅ | ✅
+|-
+| Game Ends with Two Passes | ✅ | ✅ | ❌ | ✅ | ✅
+}}
+
+Concord Go Rules achieve these important goals:
+
+* __Both territory and area counting work.__ Both methods always give the same score.
+* __Every point matters.__ Small endgame mistakes can alter the final score by a single point.
+* __Resolution by Play.__ Games can continue until all dead stones are captured.
+
+== Concord Go Rules ==
+
+* __When passing, place a pass stone in your opponent's prisoner bowl.__ This gives the opponent one point, but since games typically end with two passes, this does not change the result.
+* __The first and last pass must be made by different players.__
+* __Count every surrounded point as territory, even in seki.__ Seki (mutual life positions) eyes are points.
+* __When scoring is unclear, continue playing until all dead stones are captured.__
+
+== Commentary ==
+
+[Commentary PDF|https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/ConcordCommentary.pdf]
+
+* __Why Concord Go Rules?__ - Overview of the three key goals and comparison with other rule systems
+* __Historical Context__ - Learning from AGA rules and comparison with Ikeda rules, Taiwan rules, and Two Button Go
+* __Mathematical Proof__ - Demonstration that both counting methods give identical results
+
+== Path to Adoption ==
+
+Our strategy focuses on:
+
+* __Validation through Practice__: Pilot tournaments and demonstrations
+* __Stakeholder Engagement__: Early consultation with officials from all major organizations
+* __Gradual Implementation__: Allowing organizations to adopt at their own pace
+* __Cultural Sensitivity__: Addressing specific concerns of each Go tradition
+* __Technical Support__: Ensuring software and training materials are ready
+
+== Contributing ==
+
+We believe the best ideas emerge through community collaboration.
+Whether you're a player, official, or simply someone who loves Go, your perspective matters.
+The technical details are in the PDFs above, but the real work is building understanding and consensus within our community.
+
+We would be honored to receive:
+
+* __Thoughtful feedback__ from Go organizations, officials and Go rules experts
+* __Opportunities__ to demonstrate these ideas in friendly settings
+* __Guidance__ from respected players and officials
+* __Scholarly review__ from academic and technical experts
+
+How to get involved:
+
+* __Email group__: concord-go-rules@googlegroups.com ([Web interface|https://groups.google.com/g/concord-go-rules])
+* __Discord__: https://discord.gg/fuBjKcDX2y
