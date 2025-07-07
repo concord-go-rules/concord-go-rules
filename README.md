@@ -9,13 +9,13 @@ They achieve these important goals:
 - *Both territory and area counting work.* Both methods always give the same score. <br>
 - *Resolution by Play.* Games can continue until all dead stones are captured (without changing the score). <br>
 
-| Feature                   | Japanese/Korean | Chinese | AGA  | **Concord** |
-|---------------------------|:---------------:|:-------:|:----:|:-----------:|
-| Territory Counting        |        ✅       |    ❌   |  ✅  |      ✅     |
-| Area Counting             |        ❌       |    ✅   |  ✅  |      ✅     |
-| Every Point Matters       |        ✅       |    ❌   |  ❌  |      ✅     |
-| Resolution by Play        |        ❌       |    ✅   |  ✅  |      ✅     |
-| Game Ends with Two Passes |        ✅       |    ✅   |  ❌  |      ✅     |
+| Feature                   | Japanese/<br>Korean |  Chinese  |  AGA  | **Concord** |
+|---------------------------|:-------------------:|:---------:|:-----:|:-----------:|
+| Territory Counting        |         ✅          |     ❌    |  ✅   |      ✅     |
+| Area Counting             |         ❌          |     ✅    |  ✅   |      ✅     |
+| Every Point Matters       |         ✅          |     ❌    |  ❌   |      ✅     |
+| Resolution by Play        |         ❌          |     ✅    |  ✅   |      ✅     |
+| Game Ends with Two Passes |         ✅          |     ✅    |  ❌   |      ✅     |
 
 In particular, Concord Go Rules achieve the rare combination of territory counting and Resolution by Play.
 
