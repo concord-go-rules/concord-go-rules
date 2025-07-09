@@ -17,15 +17,15 @@ Concord Rules combine the best features of Japanese/Korean, Chinese, AGA and Tai
 
 | Feature                   | Japanese /<br>Korean |  Chinese  |  AGA  | Taiwan | **Concord** |
 |---------------------------|:--------------------:|:---------:|:-----:|:------:|:-----------:|
-| Territory Counting        |         ✅           |     ❌    |  ✅   |   ❌   |      ✅     |
-| Area Counting             |         ❌           |     ✅    |  ✅   |   ✅   |      ✅     |
+| Territory Scoring        |         ✅           |     ❌    |  ✅   |   ❌   |      ✅     |
+| Area Scoring             |         ❌           |     ✅    |  ✅   |   ✅   |      ✅     |
 | Every Point Counts        |         ✅           |     ❌    |  ❌   |   ✅   |      ✅     |
 | Play Settles Disputes     |         ❌           |     ✅    |  ✅   |   ✅   |      ✅     |
 | Game Ends with Two Passes |         ✅           |     ✅    |  ❌   |   ✅   |      ✅     |
 
 Concord Rules achieve these important goals:
 
-- *Both territory and area counting work.* Both methods always give the same score.
+- *Both territory and area scoring work.* Both methods always give the same score.
 - *Every point counts.* The rules preserve single-point precision in final scores, capturing skill differences that 2-point Chinese and AGA scoring might miss.
 - *Play Settles Disputes.* When life and death is unclear, simply capture all the dead stones - the final score remains unchanged.
 
@@ -35,7 +35,7 @@ Concord Rules achieve these important goals:
 
 - **Why Concord Rules?** - Overview of the three key goals and comparison with other rule systems
 - **Historical Context** - Learning from AGA rules and comparison with Ikeda rules, Taiwan rules, and Two Button Go
-- **Mathematical Proof** - Demonstration that both counting methods give identical results
+- **Mathematical Proof** - Demonstration that both scoring methods give identical results
 
 ### Path to Adoption
 

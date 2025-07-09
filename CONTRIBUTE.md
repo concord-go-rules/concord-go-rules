@@ -2,7 +2,7 @@
 
 - [ ] Create FAQ section in PDF
 - [ ] Add worked examples section to PDF
-- [ ] Ing counting section - add proper Ing rules comparison
+- [ ] Ing scoring section - add proper Ing rules comparison
 - [ ] Professional PDF layout and formatting
 - [ ] Multi-language documentation
 - [ ] Website development
