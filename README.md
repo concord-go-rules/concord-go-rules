@@ -1,8 +1,8 @@
 # Concord Rules of Go
 
-**Homepage**: https://github.com/concord-go-rules
-
 **[⬇️ Quick Start Guide and Complete Ruleset PDF](https://raw.githubusercontent.com/concord-go-rules/concord-go-rules/refs/heads/main/Concord.pdf)**
+
+**[Homepage](https://github.com/concord-go-rules)**
 
 ### How to Play Go with Concord Rules?
 
