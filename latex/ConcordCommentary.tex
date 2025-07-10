@@ -108,9 +108,18 @@ It equals 1 if Black made the last move (pass).\\
 It equals 1 if White made the very first pass.
 \end{itemize}
 
+With these definitions we can derive:
+\begin{itemize}
+    \item $(B_B+H_1)$ - number of Black stones on board.
+    \item $(\text{komi} + M_\Delta + H_1)$ - additional (excluding these on board) points for White when using area scoring.
+    \item $(E_B - C_B - P_B)$ - number of empty intersections surrounded by Black after filling in with the prisoners, including pass stones.
+    \item $(E_W - C_W - P_W)$ - number of empty intersections surrounded by White after filling in with the prisoners, including pass stones.
+\end{itemize}
+
+Area score and territory score equality proof:
 \begin{align}
-\text{Area score} &= (E_B + (B_B+H_1)) - (E_W + B_W + \text{komi} + M_\Delta + H_1) \\
-&= (E_B + B_B) - (E_W + B_W + \text{komi} + M_\Delta) \\
+\text{Area score} &= (E_B + (B_B+H_1)) - (E_W + B_W) - (\text{komi} + M_\Delta + H_1) \\
+&= (E_B + B_B) - (E_W + B_W) - \text{komi} - (M_B - M_W)\\
 &= (E_B + B_B - M_B) - (E_W + B_W - M_W) - \text{komi} \\
 &= (E_B + B_B - B_B - C_B - P_B ) - (E_W + B_W - B_W - C_W - P_W) - \text{komi} \\
 &= (E_B - C_B - P_B) - (E_W - C_W - P_W) - \text{komi} \\
